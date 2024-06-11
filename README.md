@@ -1,2 +1,1 @@
-# terco
 Para oração
