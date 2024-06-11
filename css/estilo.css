@@ -1,0 +1,406 @@
+/*Start - Global*/
+*{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+body{
+margin:0;
+padding:0;
+font-family: 'comfortaa', sans-serif;
+font-size: 1vw;
+line-height: 1.5vw;
+color:rgba(50,50,50,1);
+background-color:transparent;
+outline: none;
+text-rendering: optimizeLegibility;
+/*
+background-image:url("../templates/home.webp");
+background-repeat:no-repeat;
+background-position:center top;
+background-size:100% auto;
+*/
+}
+a,
+a:active,
+a:visited,
+a:focus{
+text-decoration: none;
+color:inherit;
+font-weight: inherit;
+}
+h1{
+text-align: center;
+font-size: 3vw;
+color: rgba(240,240,240,1);
+line-height: 3.5vw;
+}
+h2{
+text-align: center;
+font-size: 2vw;
+line-height: 2.5vw;
+color: white;
+}
+/*End - Global*/
+
+/*Start - app*/
+.terco{
+margin:0 auto;
+width:21vw;
+height:45.4vw;
+background-color:rgba(255,0,0,0);
+position:relative;
+margin-top:1vw;
+}
+.cruz{
+width:4.7vw;
+height:6.2vw;
+background-color:rgba(255,0,0,0);
+position:absolute;
+background-image:url("../img/cruz.webp");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 100%;
+-webkit-filter: drop-shadow(0vw 0vw 0.3vw rgba(0,0,0,0.3));
+filter: drop-shadow(0vw 0vw 0.3vw rgba(0,0,0,0.3));
+}
+.pai-nosso{
+width:1.7vw;
+height:1.7vw;
+background-color:rgba(28,28,28,1); 
+box-shadow:0vw 0.1vw 0.223vw rgba(0,0,0,0.1);
+position:absolute;
+border-radius: 5vw;
+}
+.ave-maria{
+width:0.8vw;
+height:0.8vw;
+background-color:rgba(28,28,28,1); 
+box-shadow:0vw 0.1vw 0.223vw rgba(0,0,0,0.1);
+position:absolute;
+border-radius: 1vw;
+}
+.medalha{
+width:3.1vw;
+height:3.1vw;
+box-shadow:0vw 0.1vw 0.223vw rgba(0,0,0,0.1);
+position:absolute;
+border-radius: 5vw;
+background-image:url("../img/medalha.webp");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 100%;
+}
+.ativo{
+background-color:rgba(3, 169, 244, 1);
+}
+.maria{
+width:11vw;
+height:20vw;
+background-color:rgba(255,0,0,0);
+position:absolute;
+margin-left: 3.8vw;
+margin-top: 7vw;
+background-image: url("../img/maria.svg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% auto;
+}
+.trigger{
+position:fixed;
+z-index:1;
+width:100%;
+height:100%;
+background-color:rgba(255,0,0,0);
+top:0;
+left:0;
+cursor:pointer;
+}
+.tela{
+width:48vw;
+height:20vw;
+margin:0 auto;
+margin-top:1vw;
+background-color:rgba(0,0,0,0);
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 100%;
+}
+.btn{
+width:8.5vw;
+height:2vw;
+margin:0 auto;
+margin-bottom:1vw;
+padding-left:1vw;
+background-color:rgba(3, 169, 244, 1);
+border-radius:0.5vw;
+text-align: center;
+font-size:1vw;
+line-height:2vw;
+color: white;
+}
+.btn span{
+width:2vw;
+height:2vw;
+float:right;
+background-image:url("../img/avancar.svg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:1vw auto;
+}
+.txt{
+text-align: center;
+font-size: 1vw;
+line-height: 1.5vw;
+color: rgba(240,240,240,1);
+padding-top:2vw;
+padding-bottom:2vw;
+padding-left:0vw;
+padding-right:0vw;
+}
+.txt02{
+text-align: center;
+font-size: 1vw;
+line-height: 1.5vw;
+color: rgba(240,240,240,1);
+padding-top:3vw;
+padding-bottom:3vw;
+padding-left:0vw;
+padding-right:0vw;
+}
+.zerar{
+width:5vw;
+height:5vw;
+position:absolute;
+bottom:1vw;
+right:1vw;
+padding:0.5vw;
+background-color:rgba(3, 169, 244, 1);
+border-radius:5vw;
+text-align: center;
+font-size:1vw;
+line-height: 1.5vw;
+box-shadow:0vw 0.1vw 0.223vw rgba(0,0,0,0.1);
+z-index:2;
+color: white;
+background-image:url("../img/reload.svg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:4vw auto;
+}
+.video{
+position: fixed;
+right: 0;
+bottom: 0;
+width:100vw;
+height:auto;
+}
+.lente{
+position:fixed;
+background-color:rgba(31, 32, 30, 0.6);
+width:100%;
+height:100%;
+top: 0vw;
+left: 0vw;
+}
+.escurecer{
+position:fixed;
+background-color:rgba(0,0,0,0);
+width:100%;
+height:100%;
+top: 0vw;
+left: 0vw;
+cursor:pointer;
+display:none;
+z-index: 3;
+}
+.box{
+width:50vw;
+height:40vw;
+position:absolute;
+background-color:rgba(50,50,50,0.3);
+z-index:4;
+border-radius:1.5vw;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+display:none;
+cursor: pointer;
+box-shadow: 0 0.3vw 2.2vw rgba(0, 0, 0, 0.1);
+border: 0.1vw solid rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+}
+.escolha,
+.primeiro-misterio-gozoso,
+.segundo-misterio-gozoso,
+.terceiro-misterio-gozoso,
+.quarto-misterio-gozoso,
+.quinto-misterio-gozoso,
+.primeiro-misterio-doloroso,
+.segundo-misterio-doloroso,
+.terceiro-misterio-doloroso,
+.quarto-misterio-doloroso,
+.quinto-misterio-doloroso,
+.primeiro-misterio-luminoso,
+.segundo-misterio-luminoso,
+.terceiro-misterio-luminoso,
+.quarto-misterio-luminoso,
+.quinto-misterio-luminoso,
+.primeiro-misterio-glorioso,
+.segundo-misterio-glorioso,
+.terceiro-misterio-glorioso,
+.quarto-misterio-glorioso,
+.quinto-misterio-glorioso,
+.salve-rainha{
+z-index:4;
+}
+.intencoes{
+z-index:5;
+}
+.agradecimento{
+z-index:5;
+}
+.gloria{
+z-index:6;
+}
+.tela-pai-nosso{
+z-index:3;
+}
+.gloria .tela{
+background-image:url("../img/coracao-de-jesus.webp");
+}
+.primeiro-misterio-gozoso .tela{
+background-image:url("../img/primeiro-misterio-gozoso.webp");
+}
+.segundo-misterio-gozoso .tela{
+background-image:url("../img/segundo-misterio-gozoso.webp");
+}
+.terceiro-misterio-gozoso .tela{
+background-image:url("../img/terceiro-misterio-gozoso.webp");
+}
+.quarto-misterio-gozoso .tela{
+background-image:url("../img/quarto-misterio-gozoso.webp");
+}
+.quinto-misterio-gozoso .tela{
+background-image:url("../img/quinto-misterio-gozoso.webp");
+}
+.primeiro-misterio-luminoso .tela{
+background-image:url("../img/primeiro-misterio-luminoso.webp");
+}
+.segundo-misterio-luminoso .tela{
+background-image:url("../img/segundo-misterio-luminoso.webp");
+}
+.terceiro-misterio-luminoso .tela{
+background-image:url("../img/terceiro-misterio-luminoso.webp");
+}
+.quarto-misterio-luminoso .tela{
+background-image:url("../img/quarto-misterio-luminoso.webp");
+}
+.quinto-misterio-luminoso .tela{
+background-image:url("../img/quinto-misterio-luminoso.webp");
+}
+.primeiro-misterio-doloroso .tela{
+background-image:url("../img/primeiro-misterio-doloroso.webp");
+}
+.segundo-misterio-doloroso .tela{
+background-image:url("../img/segundo-misterio-doloroso.webp");
+}
+.terceiro-misterio-doloroso .tela{
+background-image:url("../img/terceiro-misterio-doloroso.webp");
+}
+.quarto-misterio-doloroso .tela{
+background-image:url("../img/quarto-misterio-doloroso.webp");
+}
+.quinto-misterio-doloroso .tela{
+background-image:url("../img/quinto-misterio-doloroso.webp");
+}
+.primeiro-misterio-glorioso .tela{
+background-image:url("../img/primeiro-misterio-glorioso.webp");
+}
+.segundo-misterio-glorioso .tela{
+background-image:url("../img/segundo-misterio-glorioso.webp");
+}
+.terceiro-misterio-glorioso .tela{
+background-image:url("../img/terceiro-misterio-glorioso.webp");
+}
+.quarto-misterio-glorioso .tela{
+background-image:url("../img/quarto-misterio-glorioso.webp");
+}
+.quinto-misterio-glorioso .tela{
+background-image:url("../img/quinto-misterio-glorioso.webp");
+}
+.agradecimento .tela{
+background-image:url("../img/salve-rainha.webp");
+}
+.intencoes .tela{
+background-image:url("../img/intencoes.webp");
+}
+/*End - app*/
+
+/*Start - contas*/
+.item0{top: 38.2vw;left: 6.8vw;}
+.item1{top: 36.2vw;left: 8.3vw;}
+.item2{top: 34.9vw;left: 8.7vw;}
+.item3{top: 33.8vw;left: 8.7vw;}
+.item4{top: 32.6vw;left: 8.7vw;}
+.item5{top: 30.5vw;left: 8.3vw;}
+.item6{top: 27.1vw;left: 7.7vw;}
+.item7{top:26.5vw; left: 11.1vw;}
+.item8{top:25.7vw; left:11.9vw;}
+.item9{top:24.9vw; left:12.5vw;}
+.item10{top:24vw; left:13.3vw;}
+.item11{top:23.1vw; left:13.9vw;}
+.item12{top:22.2vw; left:14.6vw;}
+.item13{top:21.2vw; left:15.1vw;}
+.item14{top:20.3vw; left:15.7vw;}
+.item15{top:19.3vw; left:16.2vw;}
+.item16{top:18.3vw; left:16.6vw;}
+.item17{top:16.2vw; left:16.6vw;}
+.item18{top:14.6vw; left:17.4vw;}
+.item19{top:13.7vw; left:17.3vw;}
+.item20{top:12.7vw; left:17vw;}
+.item21{top:11.9vw; left:16.2vw;}
+.item22{top:11.3vw; left:15.4vw;}
+.item23{top:10.7vw; left:14.5vw;}
+.item24{top:10.1vw; left:13.6vw;}
+.item25{top:9.5vw; left:12.8vw;}
+.item26{top:8.8vw; left:12.1vw;}
+.item27{top:7.8vw; left:11.5vw;}
+.item28{top:5.6vw; left:10.8vw;}
+.item29{top:4.3vw; left:11.2vw;}
+.item30{top:3.3vw; left:11.2vw;}
+.item31{top:2.3vw; left:10.8vw;}
+.item32{top:1.3vw; left:10.2vw;}
+.item33{top:0.5vw; left:9.3vw;}
+.item34{top:0.2vw; left:8.3vw;}
+.item35{top:0.2vw; left:7.2vw;}
+.item36{top:0.5vw; left:6.1vw;}
+.item37{top:1vw; left:5.1vw;}
+.item38{top:1.6vw; left:4.1vw;}
+.item39{top:2.5vw; left:2.4vw;}
+.item40{top:4.6vw; left:2vw;}
+.item41{top:5.6vw; left:1.6vw;}
+.item42{top:6.6vw; left:1.4vw;}
+.item43{top:7.7vw; left:1.2vw;}
+.item44{top:8.8vw; left:1vw;}
+.item45{top:9.8vw; left:0.9vw;}
+.item46{top:10.9vw; left:0.8vw;}
+.item47{top:12vw; left:0.8vw;}
+.item48{top:13.1vw; left:0.8vw;}
+.item49{top:14.2vw; left:0.8vw;}
+.item50{top:15.7vw; left:0.7vw;}
+.item51{top:18vw; left:1.6vw;}
+.item52{top:19vw; left:1.9vw;}
+.item53{top:20vw; left:2.3vw;}
+.item54{top:21vw; left:2.8vw;}
+.item55{top:21.9vw; left:3.2vw;}
+.item56{top:22.8vw; left:3.8vw;}
+.item57{top:23.7vw; left:4.4vw;}
+.item58{top:24.6vw; left:5vw;}
+.item59{top:25.4vw; left:5.7vw;}
+.item60{top:26.3vw; left:6.5vw;}
+/*End - contas*/
