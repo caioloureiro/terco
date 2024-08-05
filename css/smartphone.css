@@ -1,4 +1,4 @@
-@media only screen and (max-width:1279px){
+@media only screen and (max-width:1024px) and (orientation: portrait){
 	
 /*Start - Global*/
 body{
@@ -11,7 +11,7 @@ line-height: 10.5vw;
 }
 h2{
 font-size: 6vw;
-line-height:7.5vw;
+line-height:15vw;
 }
 /*End - Global*/
 
@@ -72,18 +72,18 @@ height:6vw;
 background-size:3vw auto;
 }
 .txt{
-font-size: 3vw;
+font-size: 4vw;
 height: auto;
-line-height: 6vw;
+line-height: 5vw;
 padding-top:3vw;
 padding-bottom:3vw;
 padding-left:5vw;
 padding-right:5vw;
 }
 .txt02{
-font-size: 3vw;
+font-size: 4vw;
 height: auto;
-line-height: 6vw;
+line-height: 5vw;
 padding-top:3vw;
 padding-bottom:3vw;
 padding-left:5vw;
@@ -99,7 +99,7 @@ border-radius:15vw;
 font-size:3vw;
 line-height: 4.5vw;
 box-shadow:0vw 0.3vw 0.9vw rgba(0,0,0,0.1);
-background-size:12vw auto;
+background-size:9vw auto;
 }
 .video{
 left:-50%;
@@ -128,6 +128,12 @@ box-shadow: 0 0.9vw 6.6vw rgba(0, 0, 0, 0.1);
 border: 0.3vw solid rgba(255, 255, 255, 0.2);
 backdrop-filter: blur(12px);
 -webkit-backdrop-filter: blur(12px);
+}
+.box.escolha{
+padding-top:9vw;
+}
+.box.escolha h1{
+margin-bottom:9vw;
 }
 /*End - app*/
 
