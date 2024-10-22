@@ -44,4 +44,7 @@
 <meta name="GOOGLEBOT" content="index, follow"/>
 <link rel="icon" type="image/png" href="<?php echo $head_favicon ?>"/>
 
-<?php require "view/google-fonts.php"; ?>
+<?php 
+	require "view/google-fonts.php"; 
+	require "view/google-icons.php"; 
+?>

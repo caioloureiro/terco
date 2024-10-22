@@ -89,16 +89,27 @@ padding-bottom:3vw;
 padding-left:5vw;
 padding-right:5vw;
 }
-.zerar{
+.menu-campo{
 width:15vw;
-height:15vw;
 bottom:3vw;
 right:3vw;
+z-index:9;
+}
+.menu-btn{
+width:15vw;
+height:15vw;
 padding:1.5vw;
 border-radius:15vw;
 font-size:3vw;
 line-height: 4.5vw;
-box-shadow:0vw 0.3vw 0.9vw rgba(0,0,0,0.1);
+box-shadow:0vw 0.3vw 1vw rgba(0,0,0,0.1);
+margin-top:1.5vw;
+}
+.menu-btn span{
+font-size:9vw;
+line-height:12vw;
+}
+.menu-btn.zerar{
 background-size:9vw auto;
 }
 .video{
@@ -126,8 +137,8 @@ height:130vw;
 border-radius:4.5vw;
 box-shadow: 0 0.9vw 6.6vw rgba(0, 0, 0, 0.1);
 border: 0.3vw solid rgba(255, 255, 255, 0.2);
-backdrop-filter: blur(12px);
--webkit-backdrop-filter: blur(12px);
+backdrop-filter: blur(80px);
+-webkit-backdrop-filter: blur(80px);
 }
 .box.escolha{
 padding-top:9vw;

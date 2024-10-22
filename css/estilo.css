@@ -5,6 +5,11 @@
 --teste02:rgba(255,0,0,0.2);
 --teste03:rgba(255,0,0,0.3);
 
+--preto:rgba(0,0,0,1);
+--preto01:rgba(10,10,20,1);
+--preto02:rgba(20,20,30,1);
+--preto03:rgba(30,30,40,1);
+
 --preto_lente01:rgba(0,0,0,0.1);
 --preto_lente02:rgba(0,0,0,0.2);
 --preto_lente03:rgba(0,0,0,0.3);
@@ -21,8 +26,8 @@
 
 --fonte:rgba(50,50,50,1);
 
---btnOff:rgba(0,0,0,1);
---padrao:rgba(35, 200, 245, 1);
+--btnOff:var(--preto02);
+--padrao:rgb(0, 115, 172);
 
 }
 
@@ -45,7 +50,7 @@ font-family:var(--segoe);
 font-size: 0.8vw;
 line-height: 0.9vw;
 color:var(--fonte);
-background-color:transparent;
+background-color:black;
 outline: none;
 text-rendering: optimizeLegibility;
 
@@ -95,18 +100,6 @@ background-color:rgba(255,0,0,0);
 position:relative;
 margin-top:1vw;
 }
-.cruz{
-width:4.7vw;
-height:6.2vw;
-background-color:rgba(255,0,0,0);
-position:absolute;
-background-image:url("../img/cruz.webp");
-background-repeat:no-repeat;
-background-position:center center;
-background-size:auto 100%;
--webkit-filter: drop-shadow(0vw 0vw 0.3vw rgba(0,0,0,0.3));
-filter: drop-shadow(0vw 0vw 0.3vw rgba(0,0,0,0.3));
-}
 .pai-nosso{
 width:1.7vw;
 height:1.7vw;
@@ -136,6 +129,18 @@ background-size:auto 100%;
 }
 .ativo{
 background-color:var(--padrao);
+}
+.cruz{
+width:4.7vw;
+height:6.2vw;
+background-color:rgba(255,0,0,0);
+position:absolute;
+background-image:url("../img/cruz.webp") !important;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 100%;
+-webkit-filter: drop-shadow(0vw 0vw 0.3vw rgba(0,0,0,0.3));
+filter: drop-shadow(0vw 0vw 0.3vw rgba(0,0,0,0.3));
 }
 .maria{
 width:11vw;
@@ -179,8 +184,11 @@ background-color:var(--padrao);
 border-radius:0.5vw;
 text-align: center;
 font-size:1vw;
-line-height:2vw;
+line-height:1.8vw;
 color: white;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+text-transform: uppercase;
 }
 .btn span{
 width:2vw;
@@ -211,12 +219,19 @@ padding-bottom:3vw;
 padding-left:0vw;
 padding-right:0vw;
 }
-.zerar{
+.menu-campo{
 width:5vw;
-height:5vw;
+height:auto;
 position:absolute;
 bottom:1vw;
 right:1vw;
+background-color:var(--teste00);
+z-index:9;
+}
+.menu-btn{
+width:5vw;
+height:5vw;
+float:left;
 padding:0.5vw;
 background-color:var(--padrao);
 border-radius:5vw;
@@ -224,12 +239,25 @@ text-align: center;
 font-size:1vw;
 line-height: 1.5vw;
 box-shadow:0vw 0.1vw 0.223vw rgba(0,0,0,0.1);
-z-index:2;
 color: white;
+cursor:pointer;
+margin-top:0.5vw;
+transition:all 0.2s ease-in-out;
+position:absolute;
+bottom:0vw;
+}
+.menu-btn span{
+font-size:3vw;
+line-height:4vw;
+}
+.menu-btn.zerar{
 background-image:url("../img/reload.svg");
 background-repeat:no-repeat;
 background-position:center center;
 background-size:3vw auto;
+}
+.menu_ativo .menu-btn{
+position:static;
 }
 .video{
 position: fixed;
@@ -273,8 +301,8 @@ display:none;
 cursor: pointer;
 box-shadow: 0 0.3vw 2.2vw rgba(0, 0, 0, 0.1);
 border: 0.1vw solid rgba(255, 255, 255, 0.2);
-backdrop-filter: blur(17px);
--webkit-backdrop-filter: blur(17px);
+backdrop-filter: blur(45px);
+-webkit-backdrop-filter: blur(45px);
 }
 .escolha,
 .primeiro-misterio-gozoso,
@@ -386,6 +414,9 @@ padding-top:3vw;
 }
 .box.escolha h1{
 margin-bottom:3vw;
+}
+.introducao{
+z-index:5;
 }
 /*End - app*/
 

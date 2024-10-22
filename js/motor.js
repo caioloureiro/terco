@@ -12,6 +12,8 @@ if( contador == 0 ){
 /*Start - Mistérios Gozosos*/
 document.querySelector(".gozosos").addEventListener("click", function() {
 	
+	document.querySelector('.intencoes').classList.add('on');
+	document.querySelector('.introducao').classList.add('on');
 	document.querySelector('.creio').classList.add('on');
 	document.querySelector('.escolha').classList.remove('on');
 	string = 'gozosos';
@@ -71,6 +73,8 @@ document.querySelector(".quinto-misterio-gozoso .btn").addEventListener("click",
 /*Start - Mistérios Luminosos*/
 document.querySelector(".luminosos").addEventListener("click", function() {
 	
+	document.querySelector('.intencoes').classList.add('on');
+	document.querySelector('.introducao').classList.add('on');
 	document.querySelector('.creio').classList.add('on');
 	document.querySelector('.escolha').classList.remove('on');
 	string = 'luminosos';
@@ -130,6 +134,8 @@ document.querySelector(".quinto-misterio-luminoso .btn").addEventListener("click
 /*Start - Mistérios Dolorosos*/
 document.querySelector(".dolorosos").addEventListener("click", function() {
 	
+	document.querySelector('.intencoes').classList.add('on');
+	document.querySelector('.introducao').classList.add('on');
 	document.querySelector('.creio').classList.add('on');
 	document.querySelector('.escolha').classList.remove('on');
 	string = 'dolorosos';
@@ -189,6 +195,8 @@ document.querySelector(".quinto-misterio-doloroso .btn").addEventListener("click
 /*Start - Mistérios Gloriosos*/
 document.querySelector(".gloriosos").addEventListener("click", function() {
 	
+	document.querySelector('.intencoes').classList.add('on');
+	document.querySelector('.introducao').classList.add('on');
 	document.querySelector('.creio').classList.add('on');
 	document.querySelector('.escolha').classList.remove('on');
 	string = 'gloriosos';
@@ -253,10 +261,20 @@ document.querySelector(".gloria .btn").addEventListener("click", function() {
 });
 /*End - Glória*/
 
+/*Start - Introdução*/
+document.querySelector(".introducao .btn").addEventListener("click", function() {
+	
+	document.querySelector('.introducao').classList.remove('on');
+	document.querySelector('.intencoes').classList.add('ativo');
+	
+});
+/*End - Introdução*/
+
 /*Start - Intenções*/
 document.querySelector(".intencoes .btn").addEventListener("click", function() {
 	
 	document.querySelector('.intencoes').classList.remove('on');
+	document.querySelector('.creio').classList.add('ativo');
 	
 });
 /*End - Intenções*/
@@ -291,7 +309,7 @@ document.querySelector(".trigger").addEventListener("click", function() {
 		if( contador == 5){
 			document.querySelector('.escurecer').classList.add('on');
 			document.querySelector('.gloria').classList.add('on');
-			document.querySelector('.intencoes').classList.add('on');
+			//document.querySelector('.intencoes').classList.add('on');
 			if( string == "gozosos"){document.querySelector('.primeiro-misterio-gozoso').classList.add('on');}
 			if( string == "luminosos"){document.querySelector('.primeiro-misterio-luminoso').classList.add('on');}
 			if( string == "dolorosos"){document.querySelector('.primeiro-misterio-doloroso').classList.add('on');}
@@ -367,6 +385,7 @@ document.querySelector(".zerar").addEventListener("click", function() {
 	contador = 0;
 	
 	console.log('REINICIADO - contador: '+ contador);
+	document.querySelector('.menu-campo').classList.remove('menu_ativo');
 	
 });
 /*End - Reiniciar*/
@@ -400,5 +419,83 @@ document.querySelector(".salve-rainha .btn").addEventListener("click", function(
 	
 });
 /*End - Salve Rainha*/
+
+/*Start - Modo Escuro*/
+document.querySelector(".modo_escuro").addEventListener("click", function() {
+
+	document.querySelector('.video').classList.toggle('off');
+	document.querySelector('.menu-campo').classList.remove('menu_ativo');
+	
+});
+/*End - Modo Escuro*/
+
+/*Start - Menu*/
+document.querySelector(".toggle_menu").addEventListener("click", function() {
+
+	document.querySelector('.menu-campo').classList.toggle('menu_ativo');
+	
+});
+/*End - Menu*/
+
+/*Start - Fullscreen*/
+function open_fullscreen(){
+
+	if( document.querySelector(".container").requestFullscreen ) {
+		
+		document.querySelector(".container").requestFullscreen();
+		
+	} 
+	else if( document.querySelector(".container").mozRequestFullScreen ) {
+		
+		document.querySelector(".container").mozRequestFullScreen();
+		
+	} 
+	else if( document.querySelector(".container").webkitRequestFullscreen ) {
+		
+		document.querySelector(".container").webkitRequestFullscreen();
+		
+	} 
+	else if( document.querySelector(".container").msRequestFullscreen ) {
+		
+		document.querySelector(".container").msRequestFullscreen();
+		
+	}
+	
+}
+
+function close_fullscreen(){
+	
+	if( document.querySelector(".container").exitFullscreen ) {
+		
+		document.querySelector(".container").exitFullscreen();
+		
+	} 
+	else if( document.querySelector(".container").mozCancelFullScreen ) {
+		
+		document.querySelector(".container").mozCancelFullScreen();
+		
+	} 
+	else if( document.querySelector(".container").webkitExitFullscreen ) {
+		
+		document.querySelector(".container").webkitExitFullscreen();
+		
+	} 
+	else if( document.querySelector(".container").msExitFullscreen ) {
+		
+		document.querySelector(".container").msExitFullscreen();
+		
+	}
+
+}
+
+document.querySelector(".fullscreen").addEventListener("click", function() {
+	
+	//console.log( 'is_fullscreen', is_fullscreen ); 
+	
+	open_fullscreen();
+	document.querySelector('.menu-campo').classList.remove('menu_ativo');
+	
+});
+/*End - Fullscreen*/
 
 /*End - js/motor.js */

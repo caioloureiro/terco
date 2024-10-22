@@ -1,4 +1,4 @@
-<section class="home" title="home">
+<section class="home">
 	
 	<?php require 'view/video.php'; ?>
 	
@@ -68,7 +68,9 @@
 	</div>
 	
 	<div class="trigger"></div>
-	<div class="zerar"></div>
+	
+	<?php require 'view/menu.php' ?>
+	
 	<div class="escurecer"></div>
 	
 	<?php require 'view/escolha.php' ?>
@@ -78,6 +80,7 @@
 	<?php require 'view/misterios-gloriosos.php' ?>		
 	<?php require 'view/gloria.php' ?>		
 	<?php require 'view/intencoes.php' ?>	
+	<?php require 'view/introducao.php' ?>
 	<?php require 'view/creio.php' ?>	
 	<?php require 'view/pai-nosso.php' ?>	
 	<?php require 'view/agradecimento.php' ?>		
