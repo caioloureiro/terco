@@ -1,0 +1,101 @@
+/*Start - Cores Padrão*/
+:root{
+
+--amarelo: rgba(255,231,0,1);
+--amarelo01: #f7cd60;
+--amarelo02: #f9e2a3;
+--amarelo03: #f6d67a;
+--amarelo04: rgb(209, 147, 48);
+--amarelo05: rgb(189, 127, 28);
+--amarelo-escuro: rgb(208, 152, 0);
+--amarelo_transp: rgba(255,231,0,0.1);
+--amarelo-sesc: rgba(246,190,0,1);
+--amarelo_tati: rgb(238, 199, 135);
+
+--azul:rgba(83, 88, 226,1);
+--azul01: #93b3ed;
+--azul02: #cddaf1;
+--azul03: #baccec;
+--azul-escuro: rgba(0,35,141,1);
+--azul_transp:rgba(83, 88, 226,0.1);
+--azul-sesc: rgba(0,75,181,1);
+
+--branco: rgba(255,255,255,1);
+--branco02: rgba(243,243,253,1);
+--branco03: rgba(230,230,240,1);
+--branco04: rgba(215,215,225,1);
+--branco05: rgba(245,245,245,1);  
+--branco_lente03: rgba(255,255,255,0.3);
+--branco_lente05: rgba(255,255,255,0.5);
+--branco_lente08: rgba(255,255,255,0.8);
+
+--cinza:rgba(100, 100, 110,1);
+--cinza01: #fcfcfc;
+--cinza02:rgba(109, 116, 112,1);
+--cinza03: #f5f5f5;
+--cinza04: #eee;
+--cinza_claro: rgba(192,192,202,1);
+--cinza_escuro: rgba(98,98,108,1);
+--cinza-claro-sesc: rgba(208,208,206,1);
+--cinza-medio-sesc: rgba(116,118,120,1);
+
+--ciano: rgba(77,238,234,1);
+
+--laranja: rgba(231, 82, 46,1);
+
+--preto: rgba(0,0,0,1);
+--preto02:rgba(28,28,28,1);
+--preto03:rgba(51,51,51,1);
+--preto04: rgba(35,35,39,1);
+--preto_fundo:rgba(16,16,16,1);
+--preto_lente03: rgba(0,0,0,0.3);
+--preto_lente05: rgba(0,0,0,0.5);
+--preto_lente08: rgba(0,0,0,0.8);
+
+--roxo: rgba(128, 75, 246,1);
+
+--teste00:rgba(255,0,0,0);
+--teste01:rgba(255,0,0,0.1);
+--teste02:rgba(255,0,0,0.2);
+--teste03:rgba(255,0,0,0.3);
+
+--verde: rgba(116,238,21,1);
+--verde_transp05: rgba(116,238,21,0.5);
+--verde02: rgba(14, 72, 52,1);
+--verde02_transp05: rgba(14, 72, 52,0.5);  
+
+--vermelho: rgba(237, 64, 52,1);
+--vermelho_transp: rgba(237, 64, 52,0.1);
+--vermelho_tati: rgba(201, 100, 90,1);
+
+--violeta: rgba(201,116,161,1);
+
+--aba-azul01:rgba(106, 159, 261,1);
+--aba-azul01-transp:rgba(76, 129, 231,1);
+--aba-azul02:rgba(70, 133, 256,1);
+--aba-azul02-transp:rgba(40, 103, 226,1);
+
+--aba-ciano01:rgba(127, 224, 208,1);
+--aba-ciano01-transp:rgba(97, 194, 178,1);
+--aba-ciano02:rgba(100, 210, 192,1);
+--aba-ciano02-transp:rgba(70, 180, 162,1);
+
+--aba-vermelho01:rgba(232, 96, 82,1);
+--aba-vermelho01-transp:rgba(202, 66, 52,1);
+--aba-vermelho02:rgba(199, 85, 73,1);
+--aba-vermelho02-transp:rgba(169, 55, 43,1);
+
+--aba-amarelo01:rgba(256, 203, 60,1);
+--aba-amarelo01-transp:rgba(226, 173, 30,1);
+--aba-amarelo02:rgba(221, 176, 54,1);
+--aba-amarelo02-transp:rgba(191, 146, 24,1);
+
+--aba-violeta01:rgba(197, 138, 261,1);
+--aba-violeta01-transp:rgba(167, 108, 231,1);
+--aba-violeta02:rgba(176, 103, 256,1);
+--aba-violeta02-transp:rgba(146, 73, 226,1);
+
+--transp:transparent;
+
+}
+/*End - Cores Padrão*/
