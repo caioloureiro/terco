@@ -2,6 +2,10 @@
 
 Uma aplicação web interativa para rezar o Santo Terço de forma prática e envolvente.
 
+Acesse pelo site:
+
+https://digitalmd.com.br/caioloureiro/terco
+
 ---
 
 ## 👥 Para Pessoas
