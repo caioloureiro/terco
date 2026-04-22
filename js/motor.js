@@ -25,16 +25,21 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".primeiro-misterio-gozoso").classList.remove("on");
+		document.querySelector(".item7").classList.remove("visitado");
 		document.querySelector(".item7").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
-		contador = 8;
+		contador = 7;
 	});
 document
 	.querySelector(".segundo-misterio-gozoso .btn")
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".segundo-misterio-gozoso").classList.remove("on");
+		document.querySelector(".item18").classList.remove("visitado");
+		document.querySelector(".item18").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
@@ -44,6 +49,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".terceiro-misterio-gozoso").classList.remove("on");
+		document.querySelector(".item29").classList.remove("visitado");
+		document.querySelector(".item29").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
@@ -53,6 +61,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quarto-misterio-gozoso").classList.remove("on");
+		document.querySelector(".item40").classList.remove("visitado");
+		document.querySelector(".item40").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
@@ -62,6 +73,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quinto-misterio-gozoso").classList.remove("on");
+		document.querySelector(".item51").classList.remove("visitado");
+		document.querySelector(".item51").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
@@ -84,7 +98,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".primeiro-misterio-luminoso").classList.remove("on");
+		document.querySelector(".item7").classList.remove("visitado");
 		document.querySelector(".item7").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
 		contador = 8;
@@ -94,6 +110,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".segundo-misterio-luminoso").classList.remove("on");
+		document.querySelector(".item18").classList.remove("visitado");
+		document.querySelector(".item18").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
@@ -103,6 +122,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".terceiro-misterio-luminoso").classList.remove("on");
+		document.querySelector(".item29").classList.remove("visitado");
+		document.querySelector(".item29").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
@@ -112,6 +134,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quarto-misterio-luminoso").classList.remove("on");
+		document.querySelector(".item40").classList.remove("visitado");
+		document.querySelector(".item40").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
@@ -121,6 +146,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quinto-misterio-luminoso").classList.remove("on");
+		document.querySelector(".item51").classList.remove("visitado");
+		document.querySelector(".item51").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
@@ -143,7 +171,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".primeiro-misterio-doloroso").classList.remove("on");
+		document.querySelector(".item7").classList.remove("visitado");
 		document.querySelector(".item7").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
 		contador = 8;
@@ -153,6 +183,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".segundo-misterio-doloroso").classList.remove("on");
+		document.querySelector(".item18").classList.remove("visitado");
+		document.querySelector(".item18").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
@@ -162,6 +195,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".terceiro-misterio-doloroso").classList.remove("on");
+		document.querySelector(".item29").classList.remove("visitado");
+		document.querySelector(".item29").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
@@ -171,6 +207,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quarto-misterio-doloroso").classList.remove("on");
+		document.querySelector(".item40").classList.remove("visitado");
+		document.querySelector(".item40").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
@@ -180,6 +219,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quinto-misterio-doloroso").classList.remove("on");
+		document.querySelector(".item51").classList.remove("visitado");
+		document.querySelector(".item51").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
@@ -202,7 +244,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".primeiro-misterio-glorioso").classList.remove("on");
+		document.querySelector(".item7").classList.remove("visitado");
 		document.querySelector(".item7").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
 		contador = 8;
@@ -212,6 +256,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".segundo-misterio-glorioso").classList.remove("on");
+		document.querySelector(".item18").classList.remove("visitado");
+		document.querySelector(".item18").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
@@ -221,6 +268,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".terceiro-misterio-glorioso").classList.remove("on");
+		document.querySelector(".item29").classList.remove("visitado");
+		document.querySelector(".item29").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
@@ -230,6 +280,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quarto-misterio-glorioso").classList.remove("on");
+		document.querySelector(".item40").classList.remove("visitado");
+		document.querySelector(".item40").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
@@ -239,6 +292,9 @@ document
 	.addEventListener("click", function () {
 		document.querySelector(".escurecer").classList.remove("on");
 		document.querySelector(".quinto-misterio-glorioso").classList.remove("on");
+		document.querySelector(".item51").classList.remove("visitado");
+		document.querySelector(".item51").classList.add("ativo");
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
@@ -273,8 +329,9 @@ document
 document.querySelector(".creio .btn").addEventListener("click", function () {
 	document.querySelector(".escurecer").classList.remove("on");
 	document.querySelector(".creio").classList.remove("on");
+	document.querySelector(".item1").classList.remove("visitado");
 	document.querySelector(".item1").classList.add("ativo");
-	contador = 2;
+	contador = 1;
 });
 /*End - Creio*/
 
@@ -290,6 +347,15 @@ document
 /*Start - PRINCIPAL*/
 document.querySelector(".trigger").addEventListener("click", function () {
 	if (contador < total_itens) {
+		//console.log('total_itens: '+ total_itens);
+
+		if (contador <= 60) {
+			document.querySelector(".item" + contador + "").classList.remove("ativo");
+			document.querySelector(".item" + contador + "").classList.add("visitado");
+		}
+		contador++;
+		console.log("contador: " + contador);
+
 		if (contador <= 60) {
 			document.querySelector(".item" + contador + "").classList.add("ativo");
 		}
@@ -386,10 +452,6 @@ document.querySelector(".trigger").addEventListener("click", function () {
 			document.querySelector(".agradecimento").classList.add("on");
 			document.querySelector(".salve-rainha").classList.add("on");
 		}
-
-		console.log("contador: " + contador);
-		//console.log('total_itens: '+ total_itens);
-		contador++;
 	}
 });
 /*End - PRINCIPAL*/
@@ -401,6 +463,7 @@ document.querySelector(".zerar").addEventListener("click", function () {
 	for (let zerar = 0; zerar <= 60; zerar++) {
 		if (contador <= 60) {
 			document.querySelector(".item" + zerar + "").classList.remove("ativo");
+			document.querySelector(".item" + zerar + "").classList.remove("visitado");
 		}
 	}
 	document.querySelector(".escurecer").classList.add("on");
@@ -431,6 +494,9 @@ document
 		for (let terminar = 0; terminar < total_itens; terminar++) {
 			if (terminar <= 60) {
 				document.querySelector(".item" + terminar + "").classList.remove("ativo");
+				document
+					.querySelector(".item" + terminar + "")
+					.classList.remove("visitado");
 			}
 		}
 		document.querySelector(".escurecer").classList.add("on");
@@ -493,6 +559,8 @@ function voltar() {
 	if (contador > 1) {
 		document.querySelector(".item" + contador + "").classList.remove("ativo");
 		contador--;
+		document.querySelector(".item" + contador + "").classList.remove("visitado");
+		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("contador: " + contador);
 	}
 }
