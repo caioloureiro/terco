@@ -1,216 +1,397 @@
-@media only screen and (max-width:1024px) and (orientation: portrait){
-	
-/*Start - Global*/
-body{
-font-size: 3vw;
-line-height: 4.5vw;
-}
-h1{
-font-size: 9vw;
-line-height: 10.5vw;
-}
-h2{
-font-size: 6vw;
-line-height:15vw;
-}
-/*End - Global*/
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+	/*Start - Global*/
+	body {
+		font-size: 3vw;
+		line-height: 4.5vw;
+	}
+	h1 {
+		font-size: 9vw;
+		line-height: 10.5vw;
+	}
+	h2 {
+		font-size: 6vw;
+		line-height: 15vw;
+	}
+	/*End - Global*/
 
-/*Start - app*/
-.terco{
-width:58vw;
-height:136.2vw;
-background-color:rgba(255,0,0,0);
-margin-top:3vw;
-}
-.cruz{
-width:14.1vw;
-height:18.6vw;
--webkit-filter: drop-shadow(0vw 0vw 0.9vw rgba(0,0,0,0.3));
-filter: drop-shadow(0vw 0vw 0.9vw rgba(0,0,0,0.3));
-}
-.pai-nosso{
-width:5.1vw;
-height:5.1vw;
-box-shadow:0vw 0.3vw 0.9vw rgba(0,0,0,0.1);
-border-radius: 15vw;
-}
-.ave-maria{
-width:2.4vw;
-height:2.4vw;
-box-shadow:0vw 0.3vw 0.9vw rgba(0,0,0,0.1);
-border-radius: 3vw;
-}
-.medalha{
-width:9.3vw;
-height:9.3vw;
-box-shadow:0vw 0.3vw 0.9vw rgba(0,0,0,0.1);
-border-radius: 15vw;
-}
-.maria{
-width:33vw;
-height:60vw;
-margin-left:11.4vw;
-margin-top: 21vw;
-}
-.tela{
-width:90vw;
-height:57vw;
-margin-top:3vw;
-}
-.btn{
-width:25vw;
-height:6vw;
-margin-bottom:3vw;
-padding-left:3vw;
-border-radius:1.5vw;
-font-size:3vw;
-line-height:6vw;
-}
-.btn span{
-width:6vw;
-height:6vw;
-background-size:3vw auto;
-}
-.txt{
-font-size: 4vw;
-height: auto;
-line-height: 5vw;
-padding-top:3vw;
-padding-bottom:3vw;
-padding-left:5vw;
-padding-right:5vw;
-}
-.txt02{
-font-size: 4vw;
-height: auto;
-line-height: 5vw;
-padding-top:3vw;
-padding-bottom:3vw;
-padding-left:5vw;
-padding-right:5vw;
-}
-.menu-campo{
-width:15vw;
-bottom:3vw;
-right:3vw;
-z-index:9;
-}
-.menu-btn{
-width:15vw;
-height:15vw;
-padding:1.5vw;
-border-radius:15vw;
-font-size:3vw;
-line-height: 4.5vw;
-box-shadow:0vw 0.3vw 1vw rgba(0,0,0,0.1);
-margin-top:1.5vw;
-}
-.menu-btn span{
-font-size:9vw;
-line-height:12vw;
-}
-.menu-btn.zerar{
-background-size:9vw auto;
-}
-.video{
-left:-50%;
-top: 0;
-right:auto;
-bottom:auto;
-width:auto;
-height:100vh;
-}
-.escurecer{
-position:fixed;
-background-color:rgba(0,0,0,0);
-width:100%;
-height:100%;
-top: 0vw;
-left: 0vw;
-cursor:pointer;
-display:none;
-z-index: 3;
-}
-.box{
-width:90vw;
-height:130vw;
-border-radius:4.5vw;
-box-shadow: 0 0.9vw 6.6vw rgba(0, 0, 0, 0.1);
-border: 0.3vw solid rgba(255, 255, 255, 0.2);
-backdrop-filter: blur(80px);
--webkit-backdrop-filter: blur(80px);
-}
-.box.escolha{
-padding-top:9vw;
-}
-.box.escolha h1{
-margin-bottom:9vw;
-}
-/*End - app*/
+	/*Start - app*/
+	.terco {
+		width: 58vw;
+		height: 136.2vw;
+		background-color: rgba(255, 0, 0, 0);
+		margin-top: 3vw;
+	}
+	.cruz {
+		width: 14.1vw;
+		height: 18.6vw;
+		-webkit-filter: drop-shadow(0vw 0vw 0.9vw rgba(0, 0, 0, 0.3));
+		filter: drop-shadow(0vw 0vw 0.9vw rgba(0, 0, 0, 0.3));
+	}
+	.pai-nosso {
+		width: 5.1vw;
+		height: 5.1vw;
+		box-shadow: 0vw 0.3vw 0.9vw rgba(0, 0, 0, 0.1);
+		border-radius: 15vw;
+	}
+	.ave-maria {
+		width: 2.4vw;
+		height: 2.4vw;
+		box-shadow: 0vw 0.3vw 0.9vw rgba(0, 0, 0, 0.1);
+		border-radius: 3vw;
+	}
+	.medalha {
+		width: 9.3vw;
+		height: 9.3vw;
+		box-shadow: 0vw 0.3vw 0.9vw rgba(0, 0, 0, 0.1);
+		border-radius: 15vw;
+	}
+	.maria {
+		width: 33vw;
+		height: 60vw;
+		margin-left: 11.4vw;
+		margin-top: 21vw;
+	}
+	.tela {
+		width: 90vw;
+		height: 57vw;
+		margin-top: 3vw;
+	}
+	.btn {
+		width: 25vw;
+		height: 6vw;
+		margin-bottom: 3vw;
+		padding-left: 3vw;
+		border-radius: 1.5vw;
+		font-size: 3vw;
+		line-height: 6vw;
+	}
+	.btn span {
+		width: 6vw;
+		height: 6vw;
+		background-size: 3vw auto;
+	}
+	.txt {
+		font-size: 4vw;
+		height: auto;
+		line-height: 5vw;
+		padding-top: 3vw;
+		padding-bottom: 3vw;
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+	.txt02 {
+		font-size: 4vw;
+		height: auto;
+		line-height: 5vw;
+		padding-top: 3vw;
+		padding-bottom: 3vw;
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+	.menu-campo {
+		width: 15vw;
+		bottom: 3vw;
+		right: 3vw;
+		z-index: 9;
+	}
+	.menu-btn {
+		width: 15vw;
+		height: 15vw;
+		padding: 1.5vw;
+		border-radius: 15vw;
+		font-size: 3vw;
+		line-height: 4.5vw;
+		box-shadow: 0vw 0.3vw 1vw rgba(0, 0, 0, 0.1);
+		margin-top: 1.5vw;
+	}
+	.menu-btn span {
+		font-size: 9vw;
+		line-height: 12vw;
+	}
+	.menu-btn.zerar {
+		background-size: 9vw auto;
+	}
+	.video {
+		left: -50%;
+		top: 0;
+		right: auto;
+		bottom: auto;
+		width: auto;
+		height: 100vh;
+	}
+	.escurecer {
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0);
+		width: 100%;
+		height: 100%;
+		top: 0vw;
+		left: 0vw;
+		cursor: pointer;
+		display: none;
+		z-index: 3;
+	}
+	.box {
+		width: 90vw;
+		height: 130vw;
+		border-radius: 4.5vw;
+		box-shadow: 0 0.9vw 6.6vw rgba(0, 0, 0, 0.1);
+		border: 0.3vw solid rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(80px);
+		-webkit-backdrop-filter: blur(80px);
+	}
+	.box.escolha {
+		padding-top: 9vw;
+	}
+	.box.escolha h1 {
+		margin-bottom: 9vw;
+	}
+	/*End - app*/
 
-/*Start - contas*/
-.item0{top:114.6vw;left:20.4vw;}
-.item1{top:108.6vw;left:24.9vw;}
-.item2{top:104.7vw;left:26.1vw;}
-.item3{top:101.4vw;left:26.1vw;}
-.item4{top:97.8vw;left:26.1vw;}
-.item5{top:91.5vw;left:24.9vw;}
-.item6{top:81.3vw;left:23.1vw;}
-.item7{top:79.5vw;left:33.3vw;}
-.item8{top:77.1vw;left:35.7vw;}
-.item9{top:74.7vw;left:37.5vw;}
-.item10{top:72vw;left:39.9vw;}
-.item11{top:69.3vw;left:41.7vw;}
-.item12{top:66.6vw;left:43.8vw;}
-.item13{top:63.6vw;left:45.3vw;}
-.item14{top:60.9vw;left:47.1vw;}
-.item15{top:57.9vw;left:48.6vw;}
-.item16{top:54.9vw;left:49.8vw;}
-.item17{top:48.6vw;left:49.8vw;}
-.item18{top:43.8vw;left:52.2vw;}
-.item19{top:41.1vw;left:51.9vw;}
-.item20{top:38.1vw;left:51vw;}
-.item21{top:35.7vw;left:48.6vw;}
-.item22{top:33.9vw;left:46.2vw;}
-.item23{top:32.1vw;left:43.5vw;}
-.item24{top:30.3vw;left:40.8vw;}
-.item25{top:28.5vw;left:38.4vw;}
-.item26{top:26.4vw;left:36.3vw;}
-.item27{top:23.4vw;left:34.5vw;}
-.item28{top:16.8vw;left:32.4vw;}
-.item29{top:12.9vw;left:33.6vw;}
-.item30{top:9.9vw;left:33.6vw;}
-.item31{top:6.9vw;left:32.4vw;}
-.item32{top:3.9vw;left:30.6vw;}
-.item33{top:1.5vw;left:27.9vw;}
-.item34{top:0.6vw;left:24.9vw;}
-.item35{top:0.6vw;left:21.6vw;}
-.item36{top:1.5vw;left:18.3vw;}
-.item37{top:3vw;left:15.3vw;}
-.item38{top:4.8vw;left:12.3vw;}
-.item39{top:7.5vw;left:7.2vw;}
-.item40{top:13.8vw;left:6vw;}
-.item41{top:16.8vw;left:4.8vw;}
-.item42{top:19.8vw;left:4.2vw;}
-.item43{top:23.1vw;left:3.6vw;}
-.item44{top:26.4vw;left:3vw;}
-.item45{top:29.4vw;left:2.7vw;}
-.item46{top:32.7vw;left:2.4vw;}
-.item47{top:36vw;left:2.4vw;}
-.item48{top:39.3vw;left:2.4vw;}
-.item49{top:42.6vw;left:2.4vw;}
-.item50{top:47.1vw;left:2.1vw;}
-.item51{top:54vw;left:4.8vw;}
-.item52{top:57vw;left:5.7vw;}
-.item53{top:60vw;left:6.9vw;}
-.item54{top:63vw;left:8.4vw;}
-.item55{top:65.7vw;left:9.6vw;}
-.item56{top:68.4vw;left:11.4vw;}
-.item57{top:71.1vw;left:13.2vw;}
-.item58{top:73.8vw;left:15vw;}
-.item59{top:76.2vw;left:17.1vw;}
-.item60{top:78.9vw;left:19.5vw;}
+	/*Start - contas*/
+	.item0 {
+		top: 114.6vw;
+		left: 20.4vw;
+	}
+	.item1 {
+		top: 108.6vw;
+		left: 24.9vw;
+	}
+	.item2 {
+		top: 104.7vw;
+		left: 26.1vw;
+	}
+	.item3 {
+		top: 101.4vw;
+		left: 26.1vw;
+	}
+	.item4 {
+		top: 97.8vw;
+		left: 26.1vw;
+	}
+	.item5 {
+		top: 91.5vw;
+		left: 24.9vw;
+	}
+	.item6 {
+		top: 81.3vw;
+		left: 23.1vw;
+	}
+	.item7 {
+		top: 79.5vw;
+		left: 33.3vw;
+	}
+	.item8 {
+		top: 77.1vw;
+		left: 35.7vw;
+	}
+	.item9 {
+		top: 74.7vw;
+		left: 37.5vw;
+	}
+	.item10 {
+		top: 72vw;
+		left: 39.9vw;
+	}
+	.item11 {
+		top: 69.3vw;
+		left: 41.7vw;
+	}
+	.item12 {
+		top: 66.6vw;
+		left: 43.8vw;
+	}
+	.item13 {
+		top: 63.6vw;
+		left: 45.3vw;
+	}
+	.item14 {
+		top: 60.9vw;
+		left: 47.1vw;
+	}
+	.item15 {
+		top: 57.9vw;
+		left: 48.6vw;
+	}
+	.item16 {
+		top: 54.9vw;
+		left: 49.8vw;
+	}
+	.item17 {
+		top: 48.6vw;
+		left: 49.8vw;
+	}
+	.item18 {
+		top: 43.8vw;
+		left: 52.2vw;
+	}
+	.item19 {
+		top: 41.1vw;
+		left: 51.9vw;
+	}
+	.item20 {
+		top: 38.1vw;
+		left: 51vw;
+	}
+	.item21 {
+		top: 35.7vw;
+		left: 48.6vw;
+	}
+	.item22 {
+		top: 33.9vw;
+		left: 46.2vw;
+	}
+	.item23 {
+		top: 32.1vw;
+		left: 43.5vw;
+	}
+	.item24 {
+		top: 30.3vw;
+		left: 40.8vw;
+	}
+	.item25 {
+		top: 28.5vw;
+		left: 38.4vw;
+	}
+	.item26 {
+		top: 26.4vw;
+		left: 36.3vw;
+	}
+	.item27 {
+		top: 23.4vw;
+		left: 34.5vw;
+	}
+	.item28 {
+		top: 16.8vw;
+		left: 32.4vw;
+	}
+	.item29 {
+		top: 12.9vw;
+		left: 33.6vw;
+	}
+	.item30 {
+		top: 9.9vw;
+		left: 33.6vw;
+	}
+	.item31 {
+		top: 6.9vw;
+		left: 32.4vw;
+	}
+	.item32 {
+		top: 3.9vw;
+		left: 30.6vw;
+	}
+	.item33 {
+		top: 1.5vw;
+		left: 27.9vw;
+	}
+	.item34 {
+		top: 0.6vw;
+		left: 24.9vw;
+	}
+	.item35 {
+		top: 0.6vw;
+		left: 21.6vw;
+	}
+	.item36 {
+		top: 1.5vw;
+		left: 18.3vw;
+	}
+	.item37 {
+		top: 3vw;
+		left: 15.3vw;
+	}
+	.item38 {
+		top: 4.8vw;
+		left: 12.3vw;
+	}
+	.item39 {
+		top: 7.5vw;
+		left: 7.2vw;
+	}
+	.item40 {
+		top: 13.8vw;
+		left: 6vw;
+	}
+	.item41 {
+		top: 16.8vw;
+		left: 4.8vw;
+	}
+	.item42 {
+		top: 19.8vw;
+		left: 4.2vw;
+	}
+	.item43 {
+		top: 23.1vw;
+		left: 3.6vw;
+	}
+	.item44 {
+		top: 26.4vw;
+		left: 3vw;
+	}
+	.item45 {
+		top: 29.4vw;
+		left: 2.7vw;
+	}
+	.item46 {
+		top: 32.7vw;
+		left: 2.4vw;
+	}
+	.item47 {
+		top: 36vw;
+		left: 2.4vw;
+	}
+	.item48 {
+		top: 39.3vw;
+		left: 2.4vw;
+	}
+	.item49 {
+		top: 42.6vw;
+		left: 2.4vw;
+	}
+	.item50 {
+		top: 47.1vw;
+		left: 2.1vw;
+	}
+	.item51 {
+		top: 54vw;
+		left: 4.8vw;
+	}
+	.item52 {
+		top: 57vw;
+		left: 5.7vw;
+	}
+	.item53 {
+		top: 60vw;
+		left: 6.9vw;
+	}
+	.item54 {
+		top: 63vw;
+		left: 8.4vw;
+	}
+	.item55 {
+		top: 65.7vw;
+		left: 9.6vw;
+	}
+	.item56 {
+		top: 68.4vw;
+		left: 11.4vw;
+	}
+	.item57 {
+		top: 71.1vw;
+		left: 13.2vw;
+	}
+	.item58 {
+		top: 73.8vw;
+		left: 15vw;
+	}
+	.item59 {
+		top: 76.2vw;
+		left: 17.1vw;
+	}
+	.item60 {
+		top: 78.9vw;
+		left: 19.5vw;
+	}
 
-/*End - contas*/
-	
+	/*End - contas*/
 }
