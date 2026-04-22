@@ -2,6 +2,8 @@
 let total_itens = 62;
 let contador = 0;
 let string = "";
+let is_fullscreen = false;
+let is_modoEscuro = false;
 
 if (contador == 0) {
 	document.querySelector(".escurecer").classList.add("on");
@@ -31,6 +33,11 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
 		contador = 7;
+		escurecer();
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/primeiro-misterio-gozoso.webp')";
+		}
 	});
 document
 	.querySelector(".segundo-misterio-gozoso .btn")
@@ -43,6 +50,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/segundo-misterio-gozoso.webp')";
+		}
 	});
 document
 	.querySelector(".terceiro-misterio-gozoso .btn")
@@ -55,6 +66,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/terceiro-misterio-gozoso.webp')";
+		}
 	});
 document
 	.querySelector(".quarto-misterio-gozoso .btn")
@@ -67,6 +82,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quarto-misterio-gozoso.webp')";
+		}
 	});
 document
 	.querySelector(".quinto-misterio-gozoso .btn")
@@ -79,6 +98,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quinto-misterio-gozoso.webp')";
+		}
 	});
 /*End - Mistérios Gozosos*/
 
@@ -104,6 +127,11 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
 		contador = 8;
+		escurecer();
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/primeiro-misterio-luminoso.webp')";
+		}
 	});
 document
 	.querySelector(".segundo-misterio-luminoso .btn")
@@ -116,6 +144,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/segundo-misterio-luminoso.webp')";
+		}
 	});
 document
 	.querySelector(".terceiro-misterio-luminoso .btn")
@@ -128,6 +160,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/terceiro-misterio-luminoso.webp')";
+		}
 	});
 document
 	.querySelector(".quarto-misterio-luminoso .btn")
@@ -140,6 +176,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quarto-misterio-luminoso.webp')";
+		}
 	});
 document
 	.querySelector(".quinto-misterio-luminoso .btn")
@@ -152,6 +192,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quinto-misterio-luminoso.webp')";
+		}
 	});
 /*End - Mistérios Luminosos*/
 
@@ -177,6 +221,11 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
 		contador = 8;
+		escurecer();
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/primeiro-misterio-doloroso.webp')";
+		}
 	});
 document
 	.querySelector(".segundo-misterio-doloroso .btn")
@@ -189,6 +238,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/segundo-misterio-doloroso.webp')";
+		}
 	});
 document
 	.querySelector(".terceiro-misterio-doloroso .btn")
@@ -201,6 +254,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/terceiro-misterio-doloroso.webp')";
+		}
 	});
 document
 	.querySelector(".quarto-misterio-doloroso .btn")
@@ -213,6 +270,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quarto-misterio-doloroso.webp')";
+		}
 	});
 document
 	.querySelector(".quinto-misterio-doloroso .btn")
@@ -225,6 +286,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quinto-misterio-doloroso.webp')";
+		}
 	});
 /*End - Mistérios Dolorosos*/
 
@@ -250,6 +315,11 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando primeiro mistério.");
 		contador = 8;
+		escurecer();
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/primeiro-misterio-glorioso.webp')";
+		}
 	});
 document
 	.querySelector(".segundo-misterio-glorioso .btn")
@@ -262,6 +332,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando segundo mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/segundo-misterio-glorioso.webp')";
+		}
 	});
 document
 	.querySelector(".terceiro-misterio-glorioso .btn")
@@ -274,6 +348,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando terceiro mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/terceiro-misterio-glorioso.webp')";
+		}
 	});
 document
 	.querySelector(".quarto-misterio-glorioso .btn")
@@ -286,6 +364,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quarto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quarto-misterio-glorioso.webp')";
+		}
 	});
 document
 	.querySelector(".quinto-misterio-glorioso .btn")
@@ -298,6 +380,10 @@ document
 		document.querySelector(".item" + contador + "").classList.add("ativo");
 		console.log("Iniciando quinto mistério.");
 		contador++;
+		if (!is_modoEscuro) {
+			document.body.style.backgroundImage =
+				"url('img/quinto-misterio-glorioso.webp')";
+		}
 	});
 /*End - Mistérios Gloriosos*/
 
@@ -510,9 +596,15 @@ document
 
 /*Start - Modo Escuro*/
 document.querySelector(".modo_escuro").addEventListener("click", function () {
-	document.querySelector(".video").classList.toggle("off");
+	document.querySelector(".video").classList.add("off");
 	document.querySelector(".menu-campo").classList.remove("menu_ativo");
+	document.body.style.backgroundImage = "none";
+	is_modoEscuro = true;
 });
+function escurecer() {
+	document.querySelector(".video").classList.add("off");
+	document.querySelector(".menu-campo").classList.remove("menu_ativo");
+}
 /*End - Modo Escuro*/
 
 /*Start - Menu*/
@@ -532,25 +624,34 @@ function open_fullscreen() {
 	} else if (document.querySelector(".container").msRequestFullscreen) {
 		document.querySelector(".container").msRequestFullscreen();
 	}
+	is_fullscreen = true;
 }
 
 function close_fullscreen() {
-	if (document.querySelector(".container").exitFullscreen) {
-		document.querySelector(".container").exitFullscreen();
-	} else if (document.querySelector(".container").mozCancelFullScreen) {
-		document.querySelector(".container").mozCancelFullScreen();
-	} else if (document.querySelector(".container").webkitExitFullscreen) {
-		document.querySelector(".container").webkitExitFullscreen();
-	} else if (document.querySelector(".container").msExitFullscreen) {
-		document.querySelector(".container").msExitFullscreen();
+	if (document.exitFullscreen) {
+		document.exitFullscreen();
+	} else if (document.mozCancelFullScreen) {
+		document.mozCancelFullScreen();
+	} else if (document.webkitExitFullscreen) {
+		document.webkitExitFullscreen();
+	} else if (document.msExitFullscreen) {
+		document.msExitFullscreen();
 	}
+	is_fullscreen = false;
 }
 
 document.querySelector(".fullscreen").addEventListener("click", function () {
-	//console.log( 'is_fullscreen', is_fullscreen );
-
-	open_fullscreen();
+	if (is_fullscreen) {
+		close_fullscreen();
+	} else {
+		open_fullscreen();
+	}
 	document.querySelector(".menu-campo").classList.remove("menu_ativo");
+});
+
+// Detecta quando sai do fullscreen (ex: pressionando ESC)
+document.addEventListener("fullscreenchange", function () {
+	is_fullscreen = !!document.fullscreenElement;
 });
 /*End - Fullscreen*/
 

@@ -54,13 +54,16 @@ body {
 	background-color: black;
 	outline: none;
 	text-rendering: optimizeLegibility;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 
 	/*
-background-image:url("../templates/home.webp");
-background-repeat:no-repeat;
-background-position:center top;
-background-size:100% auto;
-*/
+	background-image:url("../templates/home.webp");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:100% auto;
+	*/
 }
 a,
 a:active,
@@ -122,7 +125,7 @@ h2 {
 	box-shadow: 0vw 0.1vw 0.223vw rgba(0, 0, 0, 0.1);
 	position: absolute;
 	border-radius: 5vw;
-	background-image: url("../img/medalha.webp");
+	background-image: url("img/medalha.webp");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: auto 100%;
@@ -138,7 +141,7 @@ h2 {
 	height: 6.2vw;
 	background-color: rgba(255, 0, 0, 0);
 	position: absolute;
-	background-image: url("../img/cruz.webp") !important;
+	background-image: url("img/cruz.webp") !important;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: auto 100%;
@@ -152,7 +155,7 @@ h2 {
 	position: absolute;
 	margin-left: 3.8vw;
 	margin-top: 7vw;
-	background-image: url("../img/maria.svg");
+	background-image: url("img/maria.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -197,7 +200,7 @@ h2 {
 	width: 2vw;
 	height: 2vw;
 	float: right;
-	background-image: url("../img/avancar.svg");
+	background-image: url("img/avancar.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 1vw auto;
@@ -254,7 +257,7 @@ h2 {
 	line-height: 4vw;
 }
 .menu-btn.zerar {
-	background-image: url("../img/reload.svg");
+	background-image: url("img/reload.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 3vw auto;
@@ -344,73 +347,73 @@ h2 {
 	z-index: 3;
 }
 .gloria .tela {
-	background-image: url("../img/coracao-de-jesus.webp");
+	background-image: url("img/coracao-de-jesus.webp");
 }
 .primeiro-misterio-gozoso .tela {
-	background-image: url("../img/primeiro-misterio-gozoso.webp");
+	background-image: url("img/primeiro-misterio-gozoso.webp");
 }
 .segundo-misterio-gozoso .tela {
-	background-image: url("../img/segundo-misterio-gozoso.webp");
+	background-image: url("img/segundo-misterio-gozoso.webp");
 }
 .terceiro-misterio-gozoso .tela {
-	background-image: url("../img/terceiro-misterio-gozoso.webp");
+	background-image: url("img/terceiro-misterio-gozoso.webp");
 }
 .quarto-misterio-gozoso .tela {
-	background-image: url("../img/quarto-misterio-gozoso.webp");
+	background-image: url("img/quarto-misterio-gozoso.webp");
 }
 .quinto-misterio-gozoso .tela {
-	background-image: url("../img/quinto-misterio-gozoso.webp");
+	background-image: url("img/quinto-misterio-gozoso.webp");
 }
 .primeiro-misterio-luminoso .tela {
-	background-image: url("../img/primeiro-misterio-luminoso.webp");
+	background-image: url("img/primeiro-misterio-luminoso.webp");
 }
 .segundo-misterio-luminoso .tela {
-	background-image: url("../img/segundo-misterio-luminoso.webp");
+	background-image: url("img/segundo-misterio-luminoso.webp");
 }
 .terceiro-misterio-luminoso .tela {
-	background-image: url("../img/terceiro-misterio-luminoso.webp");
+	background-image: url("img/terceiro-misterio-luminoso.webp");
 }
 .quarto-misterio-luminoso .tela {
-	background-image: url("../img/quarto-misterio-luminoso.webp");
+	background-image: url("img/quarto-misterio-luminoso.webp");
 }
 .quinto-misterio-luminoso .tela {
-	background-image: url("../img/quinto-misterio-luminoso.webp");
+	background-image: url("img/quinto-misterio-luminoso.webp");
 }
 .primeiro-misterio-doloroso .tela {
-	background-image: url("../img/primeiro-misterio-doloroso.webp");
+	background-image: url("img/primeiro-misterio-doloroso.webp");
 }
 .segundo-misterio-doloroso .tela {
-	background-image: url("../img/segundo-misterio-doloroso.webp");
+	background-image: url("img/segundo-misterio-doloroso.webp");
 }
 .terceiro-misterio-doloroso .tela {
-	background-image: url("../img/terceiro-misterio-doloroso.webp");
+	background-image: url("img/terceiro-misterio-doloroso.webp");
 }
 .quarto-misterio-doloroso .tela {
-	background-image: url("../img/quarto-misterio-doloroso.webp");
+	background-image: url("img/quarto-misterio-doloroso.webp");
 }
 .quinto-misterio-doloroso .tela {
-	background-image: url("../img/quinto-misterio-doloroso.webp");
+	background-image: url("img/quinto-misterio-doloroso.webp");
 }
 .primeiro-misterio-glorioso .tela {
-	background-image: url("../img/primeiro-misterio-glorioso.webp");
+	background-image: url("img/primeiro-misterio-glorioso.webp");
 }
 .segundo-misterio-glorioso .tela {
-	background-image: url("../img/segundo-misterio-glorioso.webp");
+	background-image: url("img/segundo-misterio-glorioso.webp");
 }
 .terceiro-misterio-glorioso .tela {
-	background-image: url("../img/terceiro-misterio-glorioso.webp");
+	background-image: url("img/terceiro-misterio-glorioso.webp");
 }
 .quarto-misterio-glorioso .tela {
-	background-image: url("../img/quarto-misterio-glorioso.webp");
+	background-image: url("img/quarto-misterio-glorioso.webp");
 }
 .quinto-misterio-glorioso .tela {
-	background-image: url("../img/quinto-misterio-glorioso.webp");
+	background-image: url("img/quinto-misterio-glorioso.webp");
 }
 .agradecimento .tela {
-	background-image: url("../img/salve-rainha.webp");
+	background-image: url("img/salve-rainha.webp");
 }
 .intencoes .tela {
-	background-image: url("../img/intencoes.webp");
+	background-image: url("img/intencoes.webp");
 }
 .box.escolha {
 	padding-top: 3vw;

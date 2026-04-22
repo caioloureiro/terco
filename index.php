@@ -13,16 +13,20 @@
 
 	<?php require "view/head.php" ?>
 
-	<link rel="stylesheet" href="css/fontes.css" />
-	<link rel="stylesheet" href="css/paleta.css" />
-	<link rel="stylesheet" href="css/dinamico.css" />
-	<link rel="stylesheet" href="css/estilo.css" />
-	<link rel="stylesheet" href="css/tablet.css" />
-	<link rel="stylesheet" href="css/smartphone.css" />
-
 </head>
 
 <body>
+
+	<style>
+		<?php
+		require 'css/fontes.css';
+		require 'css/paleta.css';
+		require 'css/dinamico.css';
+		require 'css/estilo.css';
+		require 'css/tablet.css';
+		require 'css/smartphone.css';
+		?>
+	</style>
 
 	<?php require "view/scripts-top.php" ?>
 

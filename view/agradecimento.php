@@ -3,7 +3,7 @@
 	<div class="txt">
 		Infinitas graças vos damos, <br />
 		Soberana Rainha, <br />
-		Pelos benefícios que recebemos de vossas mãos liberais. <br />
+		Pelos benefícios que todos os dias recebemos de vossas mãos liberais. <br />
 		Dignai-vos, agora e para sempre, <br />
 		tomar-nos debaixo do vosso poderoso amparo. <br />
 		E, para mais vos obrigar, vos saudamos com uma Salve Rainha.
