@@ -1,1 +1,0 @@
-<script><?php require 'js/motor-top.js'; ?></script>

@@ -1,1 +1,0 @@
-<script><?php require 'js/motor-bottom.js'; ?></script>
